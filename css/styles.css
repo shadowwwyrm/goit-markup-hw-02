@@ -1,0 +1,92 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-brand-color: #4D5AE5;
+  --pressed-state-color: #404BBF;
+  --primary-saccess-color: #31D0AA;
+  --text-color: #434455;
+  --saccent-color: #E7E9FC;
+  --light-color: #F4F4FD;
+  --modal-overlay: #2E2F42;
+  --hero-background-color: #2E2F42;
+  --white-background-color: #FFFFFF;
+  --modal-background-color: #FCFCFC;
+
+}
+
+body{
+      font-family: var(--primary-font);
+      color: var(--text-color);
+    font-size: 16px;
+    background-color: var(--white-background-color);
+        line-height: 24px;
+    letter-spacing: 2%;
+}
+
+h1 {
+      font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    font-weight: bold;
+}
+h2 {
+     font-size: 36px;
+    letter-spacing: 2%;
+    font-weight: bold;
+}
+h3 {
+    font-size: 20px;
+  letter-spacing: 2%;
+  font-weight: medium
+}
+button {
+      font-size: 16px;
+    letter-spacing: 4%;
+    line-height: 24px;
+    background-color: var(--primary-brand-color);
+    color: var(--white-background-color);
+    border:0px;
+    cursor:pointer;
+    
+}
+button:hover,
+button:focus{
+  background-color: var(--pressed-state-color);
+}
+.small-text{
+  f    font-size: 12px;
+    letter-spacing: 4%;
+    line-height: 14px;
+}
+.medium-text {
+    font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  font-weight: medium;
+}
+.link{
+  color: var(--text-color);
+  text-decoration: none;
+  font-style: normal;
+  
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: var(--primary-brand-color);
+  text-decoration: none;
+}
+.page-nav .link:active {
+  color: var(--primary-brand-color);
+  text-decoration: underline;
+}
+.contacts .link:active {
+color: var(--primary-brand-color);
+  text-decoration: none;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--primary-brand-color);
+  text-decoration: none;
+}
+ul {
+      list-style-type: none;
+    }
