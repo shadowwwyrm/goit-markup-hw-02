@@ -114,6 +114,7 @@ ul {
 }
 .p_second {
   color: var(--light-color);
+  letter-spacing: 0.02em;
 }
 .address-link {
   font-size: 16px;
