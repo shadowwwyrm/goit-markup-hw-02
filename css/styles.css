@@ -108,11 +108,11 @@ ul {
 .logo-part {
   color: var(--modal-overlay);
 }
-.logo-second_part {
+.logo_second {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.p_second_part {
+.p_second {
   color: var(--light-color);
 }
 .address-link {
@@ -156,7 +156,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.our_h2 {
+.second_h {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
