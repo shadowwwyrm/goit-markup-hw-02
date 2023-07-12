@@ -27,7 +27,7 @@ h1 {
   letter-spacing: 2%;
   font-weight: bold;
 }
-h2 {
+.our_h2 {
   font-size: 36px;
   letter-spacing: 2%;
   font-weight: bold;
@@ -108,6 +108,12 @@ ul {
 .logo-part {
   color: var(--modal-overlay);
 }
+.logo-part2 {
+  color: #f4f4fd;
+}
+.p_part2 {
+  color: var(--light-color);
+}
 .address-link {
   font-size: 16px;
   line-height: 1.5;
@@ -174,5 +180,15 @@ ul {
 .link:hover,
 .link:focus {
   color: var(--primary-brand-color);
+  text-decoration: none;
+}
+.nav-link.link:hover,
+.nav-link.link:focus {
+  color: var(--pressed-state-color);
+  text-decoration: none;
+}
+.address-link.link:hover,
+.address-link.link:focus {
+  color: var(--pressed-state-color);
   text-decoration: none;
 }
