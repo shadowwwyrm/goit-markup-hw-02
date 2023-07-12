@@ -34,7 +34,7 @@ h1 {
   letter-spacing: 0.02em;
   color: var(--hero-background-color);
 }
-.third_h{
+.third_h {
   font-size: 20px;
   font-weight: medium;
   font-weight: 500;
@@ -192,4 +192,32 @@ ul {
 .address-link.link:focus {
   color: var(--pressed-state-color);
   text-decoration: none;
+}
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio_p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.portfolio_h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
 }
