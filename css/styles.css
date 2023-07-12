@@ -27,14 +27,14 @@ h1 {
   letter-spacing: 2%;
   font-weight: bold;
 }
-.our_h2 {
+.second_h {
   font-size: 36px;
   letter-spacing: 2%;
   font-weight: bold;
   letter-spacing: 0.02em;
   color: var(--hero-background-color);
 }
-.our_h3 {
+.third_h{
   font-size: 20px;
   font-weight: medium;
   font-weight: 500;
@@ -108,10 +108,11 @@ ul {
 .logo-part {
   color: var(--modal-overlay);
 }
-.logo-part2 {
+.logo-second_part {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
-.p_part2 {
+.p_second_part {
   color: var(--light-color);
 }
 .address-link {
