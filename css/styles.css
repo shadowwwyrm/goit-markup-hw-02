@@ -84,15 +84,6 @@ button:focus{
 .list {
 list-style:none;
 }
-.link {
-text-decoration:none;
-}
-
-.link:hover,
-.link:focus {
-  color: var(--primary-brand-color);
-  text-decoration: none;
-}
 .list .link:active {
   color: var(--primary-brand-color);
   text-decoration: underline;
@@ -116,7 +107,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
+  text-decoration: none;
 }
+
+
 .logo-part{
   color:var(--modal-overlay);
   
@@ -137,7 +131,7 @@ ul {
   background-color:var(--hero-background-color);
 
 }
-.hero_h1{
+.hero_h{
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -186,4 +180,14 @@ ul {
 }
 .foot{
   background-color:var(--hero-background-color);
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover,
+.linkfocus {
+  color: var(--primary-brand-color);
+  text-decoration: none;
 }
